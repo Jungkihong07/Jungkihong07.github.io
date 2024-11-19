@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>완성 포트폴리오</title>
+  <!-- SEO -->
+  <meta name="author" content="webstroyboy">
+  <meta name="description" content="웹 표준 사이트 만들기입니다.">
+  <meta name="keywords" content="웹 표준, 포트폴리오, 웹퍼블리셔, 프론트앤드, 웹스토리보이, 사이트 제작">
+  <meta name="robots" content="all">
+  <!-- CSS(리셋) -->
+  <link rel="stylesheet" href="css/base/fonts.css">
+  <link rel="stylesheet" href="css/base/reset.css">
+  <link rel="stylesheet" href="css/components/common.css">
+  <!-- CSS(섹션) -->
+   <link rel="stylesheet" href="css/components/header.css">
+   <link rel="stylesheet" href="css/components/slider.css">
+   <link rel="stylesheet" href="/css/components/card.css">
+   <link rel="stylesheet" href="/css/components/skills.css">
+   <link rel="stylesheet" href="/css/components/aboutMe.css">
+   <link rel="stylesheet" href="/css/components/footer.css">
+
+
+
+</head>
+<body>
+  <!-- header -->
+  <header id="headerType" class="header__wrap cookie_run">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="#">hong's website</a>
+      </div>
+      <nav class="header__menu">
+        <ul>
+          <li><a href="/">about me</a></li>
+          <li><a href="/">projects</a></li>
+          <li><a href="/">skills</a></li>
+        </ul>
+      </nav>
+      <div class="header__member">
+        <a href="/">로그인</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- slider -->
+  <section id="sliderType" class="slider__wrap cookie_run">
+    <h2 class="blind">자기소개 페이지</h2>
+    <div class="slider__inner">
+      <div class="slider">
+        <div class="slider__img"></div>
+        <div class="desc">
+          <span>developer</span>
+          <h3>정기홍</h3>
+          <p>
+            상상을 현실로 만드는 풀스택 개발자<br />
+            무언가에 대해 생각하고, 공유하는 것을 즐겨 합니다.
+          </p>
+          <div class="btn">
+            <a href="/" class="btn_1">about me</a>
+            <a href="/" class="btn_2">skills</a>
+          </div>
+        </div>
+        <div class="slider__arrow">
+          <a href="/" class="left"><span class="ir">이전 이미지</span></a>
+          <a href="/" class="right"><span class="ir">다음 이미지</span></a>
+        </div>
+        <div class="slider__dot">
+          <a href="/" class="dot active"><span class="ir">1</span></a>
+          <a href="/" class="dot"><span class="ir">2</span></a>
+          <a href="/" class="dot"><span class="ir">3</span></a>
+          <a href="/" class="play"><span class="ir">플레이</span></a>
+          <a href="/" class="stop"><span class="ir">정지</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- card -->
+  <section id="cardType" class="card__wrap cookie_run section">
+    <h2>projects</h2>
+    <h3>개발한 것들</h3>
+    <div class="card__inner container">
+      <div class="card">
+        <figure class="card__header">
+          <img src="/img/Rectangle 7.jpg" alt="프로젝트 확인" />
+        </figure>
+        <div class="card__body">
+          <span>2024.02 (4인개발)</span>
+          <div class="vertical-line"></div>
+          <h4>RIA (Recommend Image Area)</h4>
+          <ul class="list">
+            <li>
+              CNN 모델을 활용한 이미지 유사도 검색을 통해 장소를 추천하는
+              웹사이트입니다.
+            </li>
+            <li>담당: Back-End 기능 구현</li>
+          </ul>
+          <div class="btn">
+            <a href="#" class="white"
+              ><div class="icon rd"></div>
+              readme</a
+            >
+            <a href="#" class="white"
+              ><div class="icon url"></div>
+              url</a
+            >
+            <a href="#" class="black">fastapi</a>
+            <a href="#" class="black">mongodb</a>
+          </div>
+          <div class="card__desc">
+            <h4>< 기여한 부분 ></h4>
+            <ol>
+              <li>OAuth 기능: 사용자 인증을 위한 안전한 OAuth 2.0 구현.</li>
+              <li>
+                이미지 유사도 검사: 이미지 비교 알고리즘을 통해 유사 이미지
+                탐지 기능 개발.
+              </li>
+              <li>
+                Kakao API 로그인: 카카오 API를 활용한 간편 로그인 기능 구현.
+              </li>
+              <li>
+                MongoDB CRUD: MongoDB를 이용한 데이터 생성, 읽기, 수정, 삭제
+                기능 구현.
+              </li>
+              <li>
+                배포: Azure App Service와 Docker를 활용하여 애플리케이션 배포.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <figure class="card__header">
+          <img src="/img/Rectangle 7.jpg" alt="프로젝트 확인" />
+        </figure>
+        <div class="card__body">
+          <span>개인 포트폴리오 웹사이트</span>
+          <div class="vertical-line"></div>
+          <h4>RIA (Recommend Image Area)</h4>
+          <ul class="list">
+            <li>HTML과 CSS를 활용한 개인 포트폴리오 웹사이트입니다.</li>
+            <li>담당 : 전체 담당</li>
+          </ul>
+          <div class="btn">
+            <a href="#" class="white"
+              ><div class="icon rd"></div>
+              readme</a
+            >
+            <a href="#" class="white"
+              ><div class="icon url"></div>
+              url</a
+            >
+            <a href="#" class="black">figma</a>
+          </div>
+          <div class="card__desc">
+            <h4>< 기여한 부분 ></h4>
+            <ol>
+              <li>디자인 figma: UI/UX 작업, 색상, 폰트, 레이아웃 선택.</li>
+              <li>프로젝트 기획: 웹사이트 목적 및 목표 설정.</li>
+              <li>프론트엔드 개발: HTML 구조 작성, CSS 스타일링.</li>
+              <li>배포: Github pages를 활용한 배포.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills -->
+  <div id="listType01" class="listType__wrap section cookie_run">
+    <h2>skills</h2>
+    <div class="listType__inner container">
+      <div class="listItem backend">
+        <h3 class="listItem__name">
+          <div class="icon backend"></div>
+          backend
+        </h3>
+        <div class="listItem__inner">
+          <div class="item">
+            <figure class="item__header">
+              <img
+                class="icon"
+                src="/img/icon/fastapi__icon.jpg"
+                alt="fastapi icon"
+              />
+              <p>fastapi</p>
+            </figure>
+            <div class="item__body">
+              <div class="desc">
+                <ul>
+                  <li>빠른 개발 위함</li>
+                  <li>AI 적용 위함.</li>
+                  <li>비동기 개발.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <figure class="item__header">
+              <img
+                class="icon"
+                src="/img/icon/fastapi__icon.jpg"
+                alt="fastapi icon"
+              />
+              <p>fastapi</p>
+            </figure>
+            <div class="item__body">
+              <div class="desc">
+                <ul>
+                  <li>빠른 개발 위함</li>
+                  <li>AI 적용 위함.</li>
+                  <li>비동기 개발.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="listItem frontend">
+        <h3 class="listItem__name">
+          <div class="icon frontend"></div>
+          frontend
+        </h3>
+        <div class="listItem__inner">
+          <div class="item">
+            <figure class="item__header">
+              <img
+                class="icon"
+                src="/img/icon/fastapi__icon.jpg"
+                alt="fastapi icon"
+              />
+              <p>fastapi</p>
+            </figure>
+            <div class="item__body">
+              <div class="desc">
+                <ul>
+                  <li>빠른 개발 위함</li>
+                  <li>AI 적용 위함.</li>
+                  <li>비동기 개발.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <figure class="item__header">
+              <img
+                class="icon"
+                src="/img/icon/fastapi__icon.jpg"
+                alt="fastapi icon"
+              />
+              <p>fastapi</p>
+            </figure>
+            <div class="item__body">
+              <div class="desc">
+                <ul>
+                  <li>빠른 개발 위함</li>
+                  <li>AI 적용 위함.</li>
+                  <li>비동기 개발.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="listItem devops">
+        <h3 class="listItem__name">
+          <div class="icon devops"></div>
+          devops
+        </h3>
+        <div class="listItem__inner">
+          <div class="item">
+            <figure class="item__header">
+              <img
+                class="icon"
+                src="/img/icon/fastapi__icon.jpg"
+                alt="fastapi icon"
+              />
+              <p>fastapi</p>
+            </figure>
+            <div class="item__body">
+              <div class="desc">
+                <ul>
+                  <li>빠른 개발 위함</li>
+                  <li>AI 적용 위함.</li>
+                  <li>비동기 개발.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <figure class="item__header">
+              <img
+                class="icon"
+                src="/img/icon/fastapi__icon.jpg"
+                alt="fastapi icon"
+              />
+              <p>fastapi</p>
+            </figure>
+            <div class="item__body">
+              <div class="desc">
+                <ul>
+                  <li>빠른 개발 위함</li>
+                  <li>AI 적용 위함.</li>
+                  <li>비동기 개발.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="listItem db">
+        <h3 class="listItem__name">
+          <div class="icon db"></div>
+          database
+        </h3>
+        <div class="listItem__inner">
+          <div class="item">
+            <figure class="item__header">
+              <img
+                class="icon"
+                src="/img/icon/fastapi__icon.jpg"
+                alt="fastapi icon"
+              />
+              <p>fastapi</p>
+            </figure>
+            <div class="item__body">
+              <div class="desc">
+                <ul>
+                  <li>빠른 개발 위함</li>
+                  <li>AI 적용 위함.</li>
+                  <li>비동기 개발.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <figure class="item__header">
+              <img
+                class="icon"
+                src="/img/icon/fastapi__icon.jpg"
+                alt="fastapi icon"
+              />
+              <p>fastapi</p>
+            </figure>
+            <div class="item__body">
+              <div class="desc">
+                <ul>
+                  <li>빠른 개발 위함</li>
+                  <li>AI 적용 위함.</li>
+                  <li>비동기 개발.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- aboutMe -->
+  <div id="aboutMe" class="aboutMe__wrap section cookie_run">
+    <h2 class="aboutMe__name">about me</h2>
+    <div class="aboutme__inner container">
+      <div class="item__list">
+        <div class="item">
+          <div class="icon email"></div>
+          hnn07185@gmail.com
+        </div>
+        <div class="item">
+          <div class="icon people"></div>
+          이름 : 정기홍
+        </div>
+        <div class="item">
+          <div class="icon school"></div>
+          학력 : 인천대학교 <br />
+          (컴퓨터공학부)
+        </div>
+        <div class="item">
+          <div class="icon number"></div>
+          010-4615-8420
+        </div>
+        <div class="item can__hover">
+          <a href="#">
+            <div class="icon github"></div>
+            github.com/Jungkihong07
+          </a>
+        </div>
+        <div class="item can__hover">
+          <a  href="#">
+            <div class="icon linkedIn"></div>
+            hnn07185@gmail.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer id="footerType" class="footer__wrap nexon section">
+    <h2 class="blind">푸터 영역</h2>
+    <div class="footer__right">
+      2024 Soa’s Portfolio is Power <br />
+      All rights reserved
+    </div>
+  </footer>
+</body>
+</html>

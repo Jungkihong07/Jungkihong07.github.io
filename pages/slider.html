@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>slider</title>
+    <link rel="stylesheet" href="../css/components/slider.css">
+    <style>
+      /* fonts */
+      @font-face {
+        font-family: "CookieRun-Regular";
+        src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+      .cookie_run {
+        font-family: "CookieRun-Regular";
+      }
+      /* reset */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .blind {
+        width: 0; /* 요소의 너비를 0으로 설정 */
+        height: 0; /* 요소의 높이를 0으로 설정 */
+        line-height: 0; /* 줄 높이를 0으로 설정 */
+        overflow: hidden; /* 요소의 내용을 숨김 */
+        position: absolute; /* 문서 흐름에서 제거하고 절대 위치 설정 */
+        text-indent: -999px; /* 텍스트를 화면 밖으로 밀어내어 보이지 않게 함 */
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      h7 {
+        text-decoration: none;
+      }
+      .ir {
+        display: block;
+        overflow: hidden;
+        font-size: 0;
+        line-height: 0;
+        text-indent: -9999%;
+      }
+
+     
+    </style>
+  </head>
+  <body>
+    <section id="sliderType" class="slider__wrap cookie_run">
+      <h2 class="blind">자기소개 페이지</h2>
+      <div class="slider__inner">
+        <div class="slider">
+          <div class="slider__img"></div>
+          <div class="desc">
+            <span>developer</span>
+            <h3>정기홍</h3>
+            <p>
+              상상을 현실로 만드는 풀스택 개발자<br />
+              무언가에 대해 생각하고, 공유하는 것을 즐겨 합니다.
+            </p>
+            <div class="btn">
+              <a href="/" class="btn_1">about me</a>
+              <a href="/" class="btn_2">skills</a>
+            </div>
+          </div>
+          <div class="slider__arrow">
+            <a href="/" class="left"><span class="ir">이전 이미지</span></a>
+            <a href="/" class="right"><span class="ir">다음 이미지</span></a>
+          </div>
+          <div class="slider__dot">
+            <a href="/" class="dot active"><span class="ir">1</span></a>
+            <a href="/" class="dot"><span class="ir">2</span></a>
+            <a href="/" class="dot"><span class="ir">3</span></a>
+            <a href="/" class="play"><span class="ir">플레이</span></a>
+            <a href="/" class="stop"><span class="ir">정지</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

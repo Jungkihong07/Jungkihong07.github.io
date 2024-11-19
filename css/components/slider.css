@@ -1,0 +1,94 @@
+ /* sliderType */
+ #sliderType {
+    background-color: #f5c084;
+  }
+  .slider {
+    position: relative;
+  }
+  .slider__img {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 764px;
+    height: 573px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: url(/img/me.jpg) no-repeat center center / cover;
+    z-index: 1;
+  }
+  .slider > .desc {
+    position: relative; /* 텍스트의 z-index를 기본값으로 설정 */
+    padding: 100px 20px;
+    width: 1160px;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  .desc span {
+    font-size: 16px;
+    padding: 0px 14px;
+    margin-top: -5px;
+    line-height: 1;
+    border: black solid 2px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  .desc h3 {
+    font-size: 100px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  .desc p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+    margin-bottom: 100px;
+  }
+  .desc .btn a {
+    font-size: 20px;
+    padding: 11px 53px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+  }
+  .desc .btn a.btn_2 {
+    padding: 12px 76px;
+  }
+  .slider__arrow a {
+    height: 84px;
+    width: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    background: url(/img/icon/slider_icon.svg);
+  }
+  .slider__arrow a.left {
+    left: 10px;
+  }
+  .slider__arrow a.right {
+    right: 10px;
+    background-position: -50px 0;
+  }
+  .slider__dot {
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    transform: translateX(-50%);
+  }
+  .slider__dot a {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(/img/icon/slider_icon.svg);
+    background-position: -20px -100px;
+    margin: 0 2px 0 0;
+  }
+  .slider__dot a.active {
+    background-position: 0 -100px;
+  }
+  .slider__dot a.play {
+    background-position: -60px -100px;
+  }
+  .slider__dot a.stop {
+    background-position: -80px -100px;
+  }

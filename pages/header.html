@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Header</title>
+    <link rel="stylesheet" href="../css/components/header.css">
+    <style>
+      /* fonts */
+      @font-face {
+        font-family: "CookieRun-Regular";
+        src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+      .cookie_run {
+        font-family: "CookieRun-Regular";
+      }
+      /* reset */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      li {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="headerType" class="header__wrap cookie_run">
+      <div class="header__inner">
+        <div class="header__logo">
+          <a href="#">hong's website</a>
+        </div>
+        <nav class="header__menu">
+          <ul>
+            <li><a href="/">about me</a></li>
+            <li><a href="/">projects</a></li>
+            <li><a href="/">skills</a></li>
+          </ul>
+        </nav>
+        <div class="header__member">
+          <a href="/">로그인</a>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+
+.header__inner {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+  }
+  .header__logo {
+    width: 20%;
+    font-size: 30px;
+    text-align: 1;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  .header__menu {
+    width: 60%;
+    text-align: right;
+  }
+  .header__menu li {
+    display: inline;
+  }
+  .header__menu a {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 8px 32px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+    line-height: 1px;
+  }
+  .header__menu a:hover {
+    background-color: #F5F5F5;
+  }
+  .header__member {
+    width: 20%;
+    text-align: right;
+  }
+  .header__member a {
+    font-size: 18px;
+    padding: 8px 37px;
+    border: 1px black solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>projects</title>
+    <link rel="stylesheet" href="/css/components/card.css">
+    <style>
+      /* fonts */
+      @font-face {
+        font-family: "CookieRun-Regular";
+        src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+      .cookie_run {
+        font-family: "CookieRun-Regular";
+      }
+      /* reset */
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      h7 {
+        margin: 0; /* 기본 마진 제거 */
+        padding: 0; /* 기본 패딩 제거 */
+        font-weight: normal; /* 기본 폰트 두께 설정 */
+      }
+      img {
+        width: 100%;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      /* common */
+      .section {
+        padding: 100px 0;
+      }
+      .section > h2 {
+        text-align: center;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+      }
+      .section > h3 {
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+      }
+      .container {
+        width: 1160px;
+        padding: 0 20px;
+        margin: 0 auto;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <section id="cardType" class="card__wrap cookie_run section">
+      <h2>projects</h2>
+      <h3>개발한 것들</h3>
+      <div class="card__inner container">
+        <div class="card">
+          <figure class="card__header">
+            <img src="../img/Rectangle 7.jpg" alt="프로젝트 확인" />
+          </figure>
+          <div class="card__body">
+            <span>2024.02 (4인개발)</span>
+            <div class="vertical-line"></div>
+            <h4>RIA (Recommend Image Area)</h4>
+            <ul class="list">
+              <li>
+                CNN 모델을 활용한 이미지 유사도 검색을 통해 장소를 추천하는
+                웹사이트입니다.
+              </li>
+              <li>담당: Back-End 기능 구현</li>
+            </ul>
+            <div class="btn">
+              <a href="#" class="white"
+                ><div class="icon rd"></div>
+                readme</a
+              >
+              <a href="#" class="white"
+                ><div class="icon url"></div>
+                url</a
+              >
+              <a href="#" class="black">fastapi</a>
+              <a href="#" class="black">mongodb</a>
+            </div>
+            <div class="card__desc">
+              <h4>< 기여한 부분 ></h4>
+              <ol>
+                <li>OAuth 기능: 사용자 인증을 위한 안전한 OAuth 2.0 구현.</li>
+                <li>
+                  이미지 유사도 검사: 이미지 비교 알고리즘을 통해 유사 이미지
+                  탐지 기능 개발.
+                </li>
+                <li>
+                  Kakao API 로그인: 카카오 API를 활용한 간편 로그인 기능 구현.
+                </li>
+                <li>
+                  MongoDB CRUD: MongoDB를 이용한 데이터 생성, 읽기, 수정, 삭제
+                  기능 구현.
+                </li>
+                <li>
+                  배포: Azure App Service와 Docker를 활용하여 애플리케이션 배포.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <figure class="card__header">
+            <img src="../img/Rectangle 7.jpg" alt="프로젝트 확인" />
+          </figure>
+          <div class="card__body">
+            <span>개인 포트폴리오 웹사이트</span>
+            <div class="vertical-line"></div>
+            <h4>RIA (Recommend Image Area)</h4>
+            <ul class="list">
+              <li>HTML과 CSS를 활용한 개인 포트폴리오 웹사이트입니다.</li>
+              <li>담당 : 전체 담당</li>
+            </ul>
+            <div class="btn">
+              <a href="#" class="white"
+                ><div class="icon rd"></div>
+                readme</a
+              >
+              <a href="#" class="white"
+                ><div class="icon url"></div>
+                url</a
+              >
+              <a href="#" class="black">figma</a>
+            </div>
+            <div class="card__desc">
+              <h4>< 기여한 부분 ></h4>
+              <ol>
+                <li>디자인 figma: UI/UX 작업, 색상, 폰트, 레이아웃 선택.</li>
+                <li>프로젝트 기획: 웹사이트 목적 및 목표 설정.</li>
+                <li>프론트엔드 개발: HTML 구조 작성, CSS 스타일링.</li>
+                <li>배포: Github pages를 활용한 배포.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

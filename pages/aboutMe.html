@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about me</title>
+    <link rel="stylesheet" href="/css/components/aboutMe.css">
+    <style>
+      /* fonts */
+      @font-face {
+        font-family: "CookieRun-Regular";
+        src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+      .cookie_run {
+        font-family: "CookieRun-Regular";
+      }
+      /* reset */
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      h7 {
+        margin: 0; /* 기본 마진 제거 */
+        padding: 0; /* 기본 패딩 제거 */
+        font-weight: normal; /* 기본 폰트 두께 설정 */
+      }
+      img {
+        width: 100%;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      /* common */
+      .section {
+        padding: 100px 0;
+      }
+      .section > h2 {
+        text-align: center;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+      }
+      .section > h3 {
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+      }
+      .container {
+        width: 1160px;
+        padding: 0 20px;
+        margin: 0 auto;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="aboutMe" class="aboutMe__wrap section cookie_run">
+      <h2 class="aboutMe__name">about me</h2>
+      <div class="aboutme__inner container">
+        <div class="item__list">
+          <div class="item">
+            <div class="icon email"></div>
+            hnn07185@gmail.com
+          </div>
+          <div class="item">
+            <div class="icon people"></div>
+            이름 : 정기홍
+          </div>
+          <div class="item">
+            <div class="icon school"></div>
+            학력 : 인천대학교 <br />
+            (컴퓨터공학부)
+          </div>
+          <div class="item">
+            <div class="icon number"></div>
+            010-4615-8420
+          </div>
+          <div class="item can__hover">
+            <a href="#">
+              <div class="icon github"></div>
+              github.com/Jungkihong07
+            </a>
+          </div>
+          <div class="item can__hover">
+            <a href="#">
+              <div class="icon linkedIn"></div>
+              hnn07185@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

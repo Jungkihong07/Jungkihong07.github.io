@@ -1,0 +1,111 @@
+/* cardType */
+.card {
+    width: 1160px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .card .card__header {
+    width: 275px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  .card__body span {
+    color: #989898;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .card__body .vertical-line {
+    margin: -3px 0 8px 0;
+    width: 725px;
+    height: 1px;
+    background: #d9d9d9;
+  }
+  .card__body h4 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  .card__body .list {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  .card__body .list li {
+    padding-left: 20px;
+    position: relative;
+  }
+  .card__body .list li::before {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background-color: #000;
+    border-radius: 10px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+  }
+  .card__body .btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+    height: 74px;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 10px;
+  }
+  .card__body .btn a {
+    width: 49%;
+    height: 31px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 5px 7px;
+    box-sizing: border-box;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+  }
+  .card__body .btn a.white {
+    background-color: #fff;
+  }
+  .card__body .btn a.black {
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+  }
+  .card__body .btn .icon {
+    width: 20px; /* 아이콘 너비 */
+    height: 20px; /* 아이콘 높이 */
+    margin-right: 5px;
+  }
+  .card__body .btn .icon.rd {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/img/la_readme.svg);
+  }
+  .card__body .btn .icon.url {
+    background-image: url(/img/url.svg);
+  }
+  .card__body > .card__desc {
+    width: 725px;
+  }
+  .card__body > .card__desc > h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .card__body > .card__desc li {
+    list-style: decimal;
+    margin-left: 20px;
+    line-height: 1.6;
+  }
