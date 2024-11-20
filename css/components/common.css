@@ -1,27 +1,38 @@
-      /* common */
-      .section {
-        padding: 100px 0;
-      }
-      .section > h2 {
-        text-align: center;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: capitalize;
-        margin-bottom: 10px;
-      }
-      .section > h3 {
-        text-align: center;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: capitalize;
-        margin-bottom: 20px;
-      }
-      .container {
-        width: 1160px;
-        padding: 0 20px;
-        margin: 0 auto;
-      }
+/* common */
+.section {
+  padding: 100px 0;
+}
+.section > h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.section > h3 {
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.container {
+  width: 1160px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* 버튼 BORDER 효과 */
+.btnBorder {
+  box-shadow: 0px 0px 0px 0px #000;
+  transition: all 0.2s;
+}
+
+.btnBorder:hover {
+  box-shadow: 0px 0px 0px 5px #000;
+}
+

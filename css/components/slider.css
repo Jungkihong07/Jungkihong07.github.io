@@ -50,6 +50,10 @@
     border-radius: 10px;
     text-transform: capitalize;
     display: inline-block;
+    transition: background-color 0.2s;
+  }
+  .desc .btn a:hover {
+    background-color: #F5F5F5;
   }
   .desc .btn a.btn_2 {
     padding: 12px 76px;
