@@ -57,33 +57,75 @@
     gap: 5px;
   }
   .listItem__inner .item {
-    width: 275px;
-    height: inherit;
     background-color: #ffff;
     border: #d9d9d9 1px solid;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     box-sizing: border-box;
     display: flex;
   }
-  .item_header {
-    width: 20%;
+  .item__header {
+    display: flex;
+    width: 100px;
+    align-items: center;
+    flex-direction: column;
+
   }
   .item__header .icon {
     width: 60px;
     height: 60px;
+    display: flex;
+    flex-wrap: wrap;
   }
+  .item__header .icon {
+    background: url(/img/icon/skills_logo.svg);
+    background-repeat: no-repeat;
+  }
+  .item__header .icon.fastapi {
+    background-position: 0 0;
+  }
+  .item__header .icon.spring {
+    background-position: -60px 0;
+  }
+  .item__header .icon.css {
+    background-position: 0 -60px;
+  }
+  .item__header .icon.react {
+    background-position: -60px -60px;
+  }
+  .item__header .icon.azure {
+    background-position: 0 -120px;
+  }
+  .item__header .icon.docker {
+    background-position: -60px -120px;
+  }
+  .item__header .icon.github {
+    background-position: -120px -120px;
+  }
+  .item__header .icon.mongo__db {
+    background-position: 0 -180px;
+  }
+  .item__header .icon.mysql {
+    width: 88.03px;
+    height: 60px;
+    background-position: -60px -180px;
+  }
+
   .item__header p {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 700;
     text-transform: capitalize;
+    text-align: center;
+    line-height: normal;
   }
   .item__body {
+    width: 145px; 
     display: flex;
-    width: 80%;
     margin-left: 15px;
-    align-items: center;
-  }
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
   .item__body .desc li {
     font-size: 16px;
     font-weight: 400D;
