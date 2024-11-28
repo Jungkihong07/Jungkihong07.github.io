@@ -60,24 +60,23 @@
     background-color: #ffff;
     border: #d9d9d9 1px solid;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 10px;
     box-sizing: border-box;
-    display: flex;
+    display: inline-flex;
+    width: 265px;
+    height: 108px;
+    justify-content: center;
+    align-items: center;
   }
   .item__header {
     display: flex;
     width: 100px;
     align-items: center;
     flex-direction: column;
-
   }
   .item__header .icon {
     width: 60px;
     height: 60px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .item__header .icon {
     background: url(/img/icon/skills_logo.svg);
     background-repeat: no-repeat;
   }
@@ -112,6 +111,7 @@
   }
 
   .item__header p {
+    align-self: stretch;
     font-size: 16px;
     font-weight: 700;
     text-transform: capitalize;
@@ -119,27 +119,26 @@
     line-height: normal;
   }
   .item__body {
-    width: 145px; 
+    width: 150px;
+    height: 80px;
     display: flex;
-    margin-left: 15px;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
     }
   .item__body .desc li {
     font-size: 16px;
-    font-weight: 400D;
-    padding-left: 20px;
+    font-weight: 400;
+    padding-left: 25px;
     line-height: 150%;
     position: relative;
   }
   .item__body .desc li:before {
     content: "";
-    height: 5px;
-    width: 5px;
+    height: 4px;
+    width: 4px;
     background-color: #000;
     border-radius: 10px;
     position: absolute;
-    left: 5px;
+    left: 10px;
     top: 10px;
   }
