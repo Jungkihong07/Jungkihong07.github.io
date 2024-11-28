@@ -1,8 +1,12 @@
 /* footerType */
 
+#footerType{
+    background-color: #2D2D2D;
+}
+
 .footer__right {
 font-size: 14px;
 text-align: center;
-color: #666;
+color: #C5C5C5;
 line-height: 1.5;
 }
