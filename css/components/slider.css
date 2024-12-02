@@ -1,6 +1,6 @@
  /* sliderType */
  #sliderType {
-    background-color: #f5c084;
+    background-color: #F3B052;
   }
   .slider {
     position: relative;
@@ -60,18 +60,18 @@
     padding: 12px 76px;
   }
   .slider__arrow a {
-    height: 84px;
+    height: 86px;
     width: 50px;
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
-    background: url(/img/icon/slider_icon.svg);
+    background: url(/img/arrow.svg);
   }
   .slider__arrow a.left {
-    left: 10px;
+    left: 60px;
   }
   .slider__arrow a.right {
-    right: 10px;
+    right: 60px;
     background-position: -50px 0;
   }
   .slider__dot {
