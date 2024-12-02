@@ -3,7 +3,9 @@
 #footerType{
     background-color: #2D2D2D;
 }
-
+.footer__wrap.section{
+    padding: 60px 0;
+}
 .footer__right {
 font-size: 14px;
 text-align: center;
